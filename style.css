@@ -1,0 +1,129 @@
+/* For specific classes*/
+/* .myClass{}
+
+/* For specific IDs*/
+/* #myID{}s
+/* Precidence: !important ID, Class, Elements (H1) */
+/*Margins and Paddings*/
+
+/* Margin --> outside space of element */
+/* Padding --> inside size of the element */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.nameID {
+  margin-bottom: 200px;
+  margin-left: 20px;
+  color: white;
+  text-align: left;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: left;
+}
+body {
+  background-color: black;
+  line-height: 7em;
+  padding-bottom: 60px;
+  text-align: center;
+  margin: 0;
+}
+#headshot {
+  border-radius: 4px;
+  position: absolute;
+  height: 300px;
+  border-radius: 40%;
+  display: block;
+  right: 300px;
+  top: 100px;
+}
+#sentance {
+  position: relative;
+  bottom: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+#fill:hover {
+  background-color: rgb(29, 149, 170);
+  color: black;
+}
+button {
+  position: relative;
+  bottom: 100px;
+  height: 50px;
+  width: 200px;
+  border-radius: 16px;
+  background-color: transparent;
+  color: rgb(29, 149, 170);
+  border-color: rgb(29, 149, 170);
+  border: 2px solid;
+  font-weight: 500;
+}
+
+#aboutMe2 {
+  background-color: #78777e;
+  color: white;
+  margin: 0;
+  height: 200px;
+}
+
+#education {
+  background-color: #e8e8e8;
+  color: black;
+  margin: 0;
+  height: 200px;
+}
+#profLife {
+  background-color: #78777e;
+  color: white;
+  margin: 0;
+  height: 200px;
+}
+#mb {
+  border: 1px solid white;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  border-radius: 15%;
+}
+#personalLife {
+  background-color: #e8e8e8;
+  color: black;
+  margin: 0;
+  height: 200px;
+}
+#title {
+  font: normal 25px sans-serif;
+  background-color: black;
+  height: 5em;
+  color: white;
+  margin: 0;
+}
+
+#nameOnly {
+  font-weight: 900;
+  font-size: 75px;
+}
+#Footer {
+  line-height: 1em;
+  background-color: white;
+  color: black;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}

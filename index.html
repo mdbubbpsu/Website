@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <div id = "allButFooter">
     <title>Matt Bubb | Digital Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <!--meta tag, with attributes in them-->
+    <meta
+      name="Description"
+      content="Matt Bubb is a senior at Penn State University"
+    />
+    <meta charset="utf-8" />
+    <!--meta tag for search engines-->
+    <meta name="robots" content="index,follow" />
+    <!-- link to our icon for the webpage rel attribute relatioship between current document and linked document-->
+    <!-- href attribute is where rel is located-->
+    <!--for icons go to icon-icons.com or iconmonstr.com-->
+    <link rel="icon" href="/img/computer_icon_161261.ico" />
+    <meta name="viewport" content="width = device-width, initial-scale=1" />
+    <!-- link our CSS stylesheet-->
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header id="title">
+      <div class="container">
+        <h5 id = mb>MB</h5>
+      </div>
+    </header>
+    <div class = "nameID">
+      <h1 id = nameOnly>Matt Bubb</h1>
+      <p id=sentance>Enthusiest of all things software. From Machine Learning to DevOps, I simply enjoy
+        learning. 
+      </p>
+      <button id = fill type="button" onclick="generateReport();">More about me!</button>
+      <script>
+        function generateReport() {
+            window.location.href = '#aboutMe';
+        }
+      </script>
+      <img id = headshot src="/img/headshot2.jpg"alt = "test"> 
+     </div>
+     <div id=aboutMe>
+       <h4 id=aboutMe2>About me</h4>
+       <h4 id=education>Education</h4>
+       <h4 id = profLife>Professional Life</h4>
+       <h4 id = personalLife>Personal Life</h4>
+     </div>
+     <footer id="Footer">
+      <p>Website coded by Matt Bubb in 2021</p>
+      <a target="_blank" href="https://www.linkedin.com/in/matt-bubb-343bb1158/"
+        ><img src="/img/iconmonstr-linkedin-3.svg" alt="" />
+      </a>
+      <a target="_blank" href="https://github.com/mdbubbpsu"
+        ><img src="/img/iconmonstr-github-1.svg" alt="" />
+      </a>
+    </footer>
   </body>
+  <script src="main.js"></script>
 </html>
